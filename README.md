@@ -1,60 +1,63 @@
 # DOCSIFY JS
 
-Javascript tạo file document - template HTML riêng biệt - thích hợp làm các file guide, hướng dẫn, trình bày source code, các tính năng.
+Javascript tạo file document nền web- template HTML riêng biệt - thích hợp làm các file guide, hướng dẫn, trình bày source code, các tính năng.
+Không giống như [GitBook] - nó ko chỉ tạo ra các file HTMl tĩnh, nó đọc file README và chuyển thành file HTML cho website đọc.
 
 ### Tính năng:
-* Full Screen mode
-* Có nhiều mẫu theme cho lựa chọn.
-* Có Script select quick theme để thay theme nếu cần thiết.
-* Có tùy chỉnh để xuất ra file PDF
-* Phần note giống trong PowerPoint Presentation
-* Nhúng code và hiển thị đẹp trong slide
-* Di chuyển đa chiều (top,right,bottom,left)
-* Kết hợp với MathJax để hiển thị các công thức toán học.
-* Tùy chỉnh control để trình chiếu (các nút, phím tắt, ...).
+* No statically built html files
+* Simple and lightweight (~16kB gzipped)
+* Smart full-text search plugin
+* Multiple themes
+* Useful plugin API
+* Emoji support
+* Compatible with IE10+
 
-### Cài đặt các source demo
+### Cài đặt
 * Cài đặt Node.js (4.0.0 or later)
 
-* Clone source này và vào folder slider1 để chạy demo
+* Cài đặt Docsify
 
 ```
-$ git clone https://github.com/nvminhtu/RevealJS.git
+$ npm i docsify-cli -g
 ```
 
-* Di chuyển vào thư mục slide1 
+* Khởi tạo thư mục project mới của docsify ( ví dụ là ./docs)
 
 ```
-$ cd slide1
+$ docsify init ./docs
 ```
 
-* Chúng ta cài đặt các dependencies
+* Sau khi khởi tạo thành công thì vào thư mục docs 
 
 ```
-$ npm install
+> index.html là trang bắt đầu cho trang tài liệu của bạn.
+> README.md là trang soạn nội dung homepag của bạn.
+> .nojekyll 
 ```
 
-* Sau đó chúng ta start npm lên
-```
-$ npm start
-```
-
-* Mở http://localhost:8000 để xem slide của chúng ta
-
-Có thể chạy với port khác sử dụng lệnh sau
+* Docsify cung cấp cho chúng ta 1 local server, vì thế có thể chạy server như sau
 
 ```
-npm start -- --port=8001.
+docsify serve docs
 ```
 
-### Ví dụ mẫu sau khi thực hành
+* Preview tại Local Server
 
-### Tham khảo
-  [Github source] - Github source cũng như document của a REVEALJS
-  [Demo REVEALJS] - Chạy Demo online
+```
+http://localhost:3000
+```
+
+### 1 số code tùy chỉnh
+
+* Thêm loading text khi chờ load files
+```
+<div id="app">Please wait...</div>
+```
 
 **Free Software, Hell Yeah!**
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [Docisfy]: <https://docsify.js.org/>
+   [GitBook]: <https://www.gitbook.com/>
+ 
