@@ -11,6 +11,7 @@ Không giống như [GitBook] - nó ko chỉ tạo ra các file HTMl tĩnh, nó 
 * Useful plugin API
 * Emoji support
 * Compatible with IE10+
+* Language Hightlight
 
 ### Cài đặt
 * Cài đặt Node.js (4.0.0 or later)
@@ -71,10 +72,19 @@ http://localhost:3000
   </script>
 ```
 
+* Language Highlight
+Mặc định Docsify sử dụng Prim để highlight language của chúng ta (tuy nhiên nó chỉ highlight HTML, CSS, Javascript), nếu muốn nhúng thêm thì chúng ta có thể thêm các ngôn ngữ khác như sau
+```
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
+```
+Hoặc check [Component List] để tìm thêm các ngôn ngữ khác được cập nhật.
+
 **Free Software, Hell Yeah!**
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [Docisfy]: <https://docsify.js.org/>
    [GitBook]: <https://www.gitbook.com/>
- 
+   [Component List]: <https://github.com/PrismJS/prism/tree/gh-pages/components>
