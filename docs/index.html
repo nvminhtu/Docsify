@@ -5,17 +5,24 @@
   <title>Document</title>
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css">
+  <style>
+    .markdown-section {
+      max-width: none!important;
+    }
+  </style>
 </head>
 <body>
   <div data-app id="main">Please wait...</div>
 </body>
 <script>
   window.$docsify = {
+    loadNavbar: true,
+    loadSidebar: true,
     el: '#main',
     name: '',
-    repo: ''
+    repo: '',
+    coverpage: true
   }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
