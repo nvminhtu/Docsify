@@ -20,3 +20,6 @@
 
 - News
   - [Update News](news.md)
+
+- Blogs
+  - [Update Blogs](blogs.md)

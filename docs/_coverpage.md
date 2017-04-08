@@ -12,5 +12,7 @@
 - Feature Page Edit.
 - Blog Update.
 
+
+
 [Bosty View Site](http://groovoost.heteml.jp/bosty.jp/)
 [Bosty Admin](http://groovoost.heteml.jp/bosty.jp/wp-admin/)
