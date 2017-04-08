@@ -1,36 +1,54 @@
-# Company Update
+# Studio Update
 
-![company](_media/company.png)
+![studio](_media/studio.png)
 
-## You can go to 
-
-!> Wordpress Admin => Pages => 運営会社について
-
-## Click to edit => This area is content of Company Page
-
-![company-1](_media/company-1.png)
-
-## Update content by editor in Wordpress Admin:
-
-![company-content](_media/company-content.png)
-
-## This area list media for Company Page
-
-![company-2](_media/company-2.png)
-
-## You can go to 
+## Edit Page
 
 !> Wordpress Admin => Pages => 運営会社について
 
-## Click to edit => We can insert data for each media
+## Edit Cover Picture
+
+![studio-1](_media/studio-1.png)
+
+## Update Studio
+
+![studio-2](_media/studio-2.png)
+
+## You should go to Studio section to add more Studio
+
+!> Wordpress Admin => スタジ
+
+## Screenshot
+
+![studio-3](_media/studio-3.png)
+
+## Click to edit => We can input some information
 
 * Media Picture
 * Media Channel
 * Media Date
 * Media Link
 
-![company-3](_media/company-3.png)
+![studio-map](_media/studio-map.png)
 
-## Add/Delete Media
+## Info Window for Pin will be shown here
 
-![company-4](_media/company-4.png)
+![studio-map-1](_media/studio-map-1.png)
+
+## Studio Information
+
+![studio-information](_media/studio-information.png)
+
+## You can edit information for map by edit below fields
+
+![studio-information-1](_media/studio-information-1.png)
+
+## Upload Studio Pictures
+
+![studio-picture](_media/studio-picture.png)
+
+## Upload pictures to gallery
+
+![studio-picture-1](_media/studio-picture-1.png)
+
+!> You can Drag and drop pictures to arrange order for pictures
