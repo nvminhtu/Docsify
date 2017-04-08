@@ -54,6 +54,23 @@ http://localhost:3000
 <div id="app">Please wait...</div>
 ```
 
+* Thay đổi id của app, mặc định Docsify cài đặt là id="app", nếu chúng ta muốn đổi tên id, chúng ta phải thực hiện các bước sau
+
+- Chúng ta phải thêm thuộc tính 'el' trong script và thiết lập ở đó tên id của app mà chúng ta mới thay.
+- Thêm thuộc tính data-app cho thẻ của id
+
+```
+  <!-- index.html -->
+
+  <div data-app id="main">Please wait...</div>
+
+  <script>
+    window.$docsify = {
+      el: '#main'
+    }
+  </script>
+```
+
 **Free Software, Hell Yeah!**
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
