@@ -1,13 +1,13 @@
 <!-- _navbar.md -->
 
 - Global Options
+  - [Menu](menu.md)
   - [Order List page](order-list-page.md)
   - [Contact Information](contact-information.md)
   - [QA Ranking](qa-ranking.md)
   - [QA Cover Background](qa-cover.md)
 
 - Pages
-  - [Homepage](home.md)
   - [Company](company.md)
   - [Studio](studio.md)
   - [Feature](feature.md)

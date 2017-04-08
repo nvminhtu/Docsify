@@ -1,5 +1,7 @@
-Update order of pages (you can select pages from your pages to show)
 
+# Update order of pages 
+
+(you can select pages from your pages to show)
 
 ![order-page-1](_media/order-page-1.png)
 
