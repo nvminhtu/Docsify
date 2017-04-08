@@ -22,10 +22,24 @@
 
 ![feature-4](_media/feature-4.png)
 
-## Update Features Trainer
+## Update Trainer Gallery
 
 ![feature-trainer-gallery](_media/feature-trainer-gallery.png)
 
-## Add/Delete Feature Trainer Picture
+## Add/Delete Trainer Gallery
 
 ![feature-trainer-gallery-1](_media/feature-trainer-gallery-1.png)
+
+## Trainer Profile
+
+![feature-trainer-profile](_media/feature-trainer-profile.png)
+
+## Add/Delete Trainer Profile
+
+* Trainer Name
+* Country
+* University
+* Trainer Content
+* Trainer Profile Picture
+
+![feature-trainer-profile-1](_media/feature-trainer-profile-1.png)
